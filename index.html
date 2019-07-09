@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport"
+         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+   <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap&subset=cyrillic,latin-ext" rel="stylesheet">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+   <link rel="stylesheet" href="plugins/slick-slider/slick.css">
+   <title>Служба крови</title>
+</head>
+<body>
+<header class="header">
+   <div class="container-fluid">
+      <div class="wrap-search">
+         <input type="text" class="search-input" placeholder="Поиск...">
+      </div>
+      <div class="row">
+         <div class="col-sm-2 col-9">
+            <div class="logo pos-center">
+               <a href="#">
+                  <img src="images/logo.png" alt="Logo">
+               </a>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-5 col-8 d-sm-block d-none bdr">
+            <div class="name-center pos-center">
+               <p>
+                  Новосибирский
+                  клинический
+                  центр крови
+               </p>
+            </div>
+         </div>
+         <div class="col-lg-3 col-4 d-md-block d-none bdr">
+            <div class="contacts-h pos-center">
+               <a class="tel" href="tel:3833537960">(383) 353 79 60</a>
+               <a class="email" href="mailto:nbb@nso.ru">nbb@nso.ru</a>
+            </div>
+         </div>
+         <div class="col-lg-1 d-none d-lg-block bdr">
+            <div class="search">
+               <img src="images/search.svg" alt="">
+               <p>поиск</p>
+            </div>
+         </div>
+         <div class="col-lg-1 d-none d-lg-block bdr">
+            <a href="#" class="record">
+               <img src="images/edit.svg" alt="">
+               <p>онлайн запись</p>
+            </a>
+         </div>
+         <div class="col-lg-1 col-md-1 col-sm-2 col-3 bg-sea-blue offset-n">
+            <div class="menu-toggle" id="menu">
+               <div class="icon-burger">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+               <p class="changed-text">меню</p>
+            </div>
+         </div>
+      </div>
+      <div class="wrap-navigation dropdown">
+         <div class="top d-lg-none">
+            <div class="search">
+               <img src="images/search.svg" alt="">
+               <p>поиск</p>
+            </div>
+            <a href="#" class="record">
+               <img src="images/edit.svg" alt="">
+               <p>онлайн запись</p>
+            </a>
+         </div>
+         <div class="navigation">
+            <div class="column">
+               <div class="list">
+                  <div class="list-name">
+                     <a href="#"> О центре</a>
+                  </div>
+                  <ul class="list-enumeration">
+                     <li><a href="#">История</a></li>
+                     <li><a href="#">Персонал</a></li>
+                     <li><a href="#">Вакансии</a></li>
+                     <li><a href="#">Лицензия</a></li>
+                     <li><a href="#">Партнеры</a></li>
+                     <li><a href="#">График заготовки</a></li>
+                     <li><a href="#">Независимая оценка качества</a></li>
+                  </ul>
+               </div>
+               <div class="list">
+                  <div class="list-name">
+                     <a href="#">Выездная бригада</a>
+                  </div>
+               </div>
+               <div class="list">
+                  <div class="list-name">
+                     <a href="#">Трансфузиологам</a>
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <div class="list">
+                  <div class="list-name">
+                     <a href="#">Донорам</a>
+                  </div>
+                  <ul class="list-enumeration">
+                     <li><a href="#">Как стать донором</a></li>
+                     <li><a href="#">Как происходит донация </a></li>
+                     <li><a href="#">График приема доноров</a></li>
+                     <li><a href="#">Противопоказания к донорству </a></li>
+                     <li><a href="#">Безопасность донора </a></li>
+                     <li><a href="#">Почему я стал донором</a></li>
+                     <li><a href="#">Вопрос-ответ</a></li>
+                     <li><a href="#">Компоненты крови * </a></li>
+                     <li><a href="#">Группы крови </a></li>
+                     <li><a href="#">Полезные ссылки</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="column">
+               <div class="list">
+                  <div class="list-name">
+                     <a href="#">Пресс-центр</a>
+                  </div>
+                  <ul class="list-enumeration">
+                     <li><a href="#">Новости</a></li>
+                     <li><a href="#">Блог главного врача</a></li>
+                     <li><a href="#">Фото</a></li>
+                     <li><a href="#">Видео</a></li>
+                  </ul>
+               </div>
+               <div class="list">
+                  <div class="list-name">
+                     <a href="#">Донорское движение </a>
+                  </div>
+                  <ul class="list-enumeration">
+                     <li><a href="#">Для студентов</a></li>
+                     <li><a href="#">Рейтинг вузов</a></li>
+                     <li><a href="#">Для волонтеров </a></li>
+                     <li><a href="#">Корпоративное донорство</a></li>
+                     <li><a href="#">Для СМИ</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</header>
+
+
+<section class="top-s">
+   <div class="container-fluid">
+      <p class="vertical-t"><img src="images/arrow-down.svg" alt=""> Подробнее </p>
+      <div class="wrapper-content">
+         <div class="title-top">
+            Добро пожаловать на сайт Новосибирского центра крови
+         </div>
+         <div class="video-control">
+            <div class="wrap-btn">
+               <img src="images/triangle.svg" alt="">
+            </div>
+            <p> Смотреть ролик о центре</p>
+         </div>
+      </div>
+      <div class="video-wrap">
+         <video src="video/video.mp4" class="video"></video>
+      </div>
+
+      <div class="wrapper-content">
+         <div class="choose-blood shadow">
+            <div class="row">
+               <div class="col-md-4 col-12">
+                  <div class="wrap-inf">
+                     <p class="date">
+                        12.01.2019
+                     </p>
+                     <p class="name">
+                        Сегодня наиболее востребована кровь
+                     </p>
+                     <a href="#" class="online-recording">
+                        Онлайн запись &gt;
+                     </a>
+                  </div>
+               </div>
+               <div class="col-md-8 col-12">
+                  <div class="row tabs__caption">
+                     <div class="col-sm-6 col-12">
+                        <div class="blood-item">
+                           <div class="group-blood">
+                              B (III)
+                           </div>
+                           <div class="buttons">
+                              <div class="btn">
+                                 <button>
+                                    Rh+
+                                 </button>
+                              </div>
+                              <div class="btn">
+                                 <button class="red-theme">
+                                    Rh-
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 col-12">
+                        <div class="blood-item">
+                           <div class="group-blood">
+                              0 (I)
+                           </div>
+                           <div class="buttons">
+                              <div class="btn">
+                                 <button class="green-theme">
+                                    Rh+
+                                 </button>
+                              </div>
+                              <div class="btn">
+                                 <button>
+                                    Rh-
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-sm-6 col-12">
+                        <div class="blood-item">
+                           <div class="group-blood">
+                              0 (I)
+                           </div>
+                           <div class="buttons">
+                              <div class="btn">
+                                 <button>
+                                    Rh+
+                                 </button>
+                              </div>
+                              <div class="btn">
+                                 <button class="red-theme">
+                                    Rh-
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 col-12">
+                        <div class="blood-item">
+                           <div class="group-blood">
+                              A (II)
+                           </div>
+                           <div class="buttons">
+                              <div class="btn">
+                                 <button class="green-theme">
+                                    Rh+
+                                 </button>
+                              </div>
+                              <div class="btn">
+                                 <button>
+                                    Rh-
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+
+<!--More menu-->
+<section class="more-menu">
+   <div class="wrapper-content">
+      <div class="row choose-popup">
+         <div class="col-md-4 col-12">
+            <a href="#" class="menu-item contraindications shadow">
+               <div class="wrap-descr">
+                  <div class="name">
+                     Противопоказания<br>
+                     к донорству
+                  </div>
+                  <span class="arrow">&rarr;</span>
+               </div>
+            </a>
+         </div>
+         <div class="col-md-8 col-12">
+            <a href="#" class="menu-item how-be-donor dark-theme shadow">
+               <div class="wrap-descr">
+                  <div class="name">
+                     Как стать<br>
+                     донором
+                  </div>
+                  <span class="arrow">&rarr;</span>
+               </div>
+            </a>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-4 col-12">
+            <a href="#" class="menu-item time-donor dark-theme shadow double">
+               <div class="wrap-descr">
+                  <div class="name">
+                     Тайм менеджмент<br>
+                     для донора
+                  </div>
+                  <span class="arrow">&rarr;</span>
+               </div>
+            </a>
+         </div>
+         <div class="col-md-8 col-12">
+            <div class="row">
+               <div class="col-md-6 col-12">
+                  <a href="#" class="menu-item memo-donor shadow">
+                     <div class="wrap-descr">
+                        <div class="name">
+                           Памятка<br>
+                           донора
+                        </div>
+                        <span class="arrow">&rarr;</span>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-md-6 col-12">
+                  <a href="#" class="menu-item group-blood dark-theme shadow">
+                     <div class="wrap-descr">
+                        <div class="name">
+                           Группы<br>
+                           крови
+                        </div>
+                        <span class="arrow">&rarr;</span>
+                     </div>
+                  </a>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <a href="#" class="menu-item schedule-donor dark-theme shadow">
+                     <div class="wrap-descr">
+                        <div class="name">
+                           График приема<br>
+                           доноров
+                        </div>
+                        <span class="arrow">&rarr;</span>
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!--/More menu-->
+
+<!--News-->
+<section class="news">
+   <div class="wrapper-content">
+      <div class="top">
+         <div class="wrap">
+            <div class="title-s">
+               Новости
+            </div>
+            <div class="nav-slide">
+               <span class="arrow-news prev-arrow-news">&lt;</span>
+               <div class="wrap-dots">
+                  <div class="dots-news">
+                     <div>1</div>
+                     <div>2</div>
+                     <div>3</div>
+                     <div>4</div>
+                     <div>5</div>
+                  </div>
+               </div>
+               <div class="all">
+                  | 5
+               </div>
+               <span class="arrow-news next-arrow-news">&gt;</span>
+            </div>
+         </div>
+         <a href="#" class="show-all-news">Все новости<span class="arrow-news prev-arrow-news">&gt;</span>
+
+         </a>
+      </div>
+   </div>
+   <div class="container-fluid">
+      <div class="news-slider">
+         <a href="#" class="slide shadow">
+            <div class="wrap-img">
+               <img src="images/card-image.jpg" alt="">
+            </div>
+            <div class="wrap-descr">
+               <p class="date">12.01.2019</p>
+               <p class="name-news">
+                  Идея Новосибирского центра крови оценена другими регионами
+               </p>
+               <span class="arrow">&rarr;</span>
+            </div>
+         </a>
+         <a href="#" class="slide shadow">
+            <div class="wrap-img">
+               <img src="images/card-image-2.jpg" alt="">
+            </div>
+            <div class="wrap-descr">
+               <p class="date">12.01.2019</p>
+               <p class="name-news">
+                  Идея Новосибирского центра крови оценена другими регионами
+               </p>
+               <span class="arrow">&rarr;</span>
+            </div>
+         </a>
+         <a href="#" class="slide shadow">
+            <div class="wrap-img">
+               <img src="images/card-image-3.jpg" alt="">
+            </div>
+            <div class="wrap-descr">
+               <p class="date">12.01.2019</p>
+               <p class="name-news">
+                  Идея Новосибирского центра крови оценена другими регионами
+               </p>
+               <span class="arrow">&rarr;</span>
+            </div>
+         </a>
+         <a href="#" class="slide shadow">
+            <div class="wrap-img">
+               <img src="images/card-image-2.jpg" alt="">
+            </div>
+            <div class="wrap-descr">
+               <p class="date">12.01.2019</p>
+               <p class="name-news">
+                  Идея Новосибирского центра крови оценена другими регионами
+               </p>
+               <span class="arrow">&rarr;</span>
+            </div>
+         </a>
+         <a href="#" class="slide shadow">
+            <div class="wrap-img">
+               <img src="images/card-image-3.jpg" alt="">
+            </div>
+            <div class="wrap-descr">
+               <p class="date">12.01.2019</p>
+               <p class="name-news">
+                  Идея Новосибирского центра крови оценена другими регионами
+               </p>
+               <span class="arrow">&rarr;</span>
+            </div>
+         </a>
+      </div>
+   </div>
+</section>
+<!--/News-->
+
+<!--Company-->
+<section class="company">
+   <div class="wrapper-content">
+      <div class="wrap-company">
+         <div class="one-company">
+            <img src="images/company-1.png" alt="">
+         </div>
+         <div class="one-company">
+            <img src="images/company-2.png" alt="">
+         </div>
+         <div class="one-company">
+            <img src="images/company-3.png" alt="">
+         </div>
+         <div class="one-company">
+            <img src="images/company-4.png" alt="">
+         </div>
+      </div>
+   </div>
+</section>
+<!--/Company-->
+
+<footer class="footer">
+   <div class="wrapper-content">
+      <div class="top">
+         <div class="row align-items-center">
+            <div class="col-md-2 col-6">
+               <div class="logo pos-center">
+                  <a href="#">
+                     <img src="images/logo.png" alt="Logo">
+                  </a>
+               </div>
+            </div>
+            <div class="col-md-4 col-6">
+               <div class="name-center pos-center">
+                  <p>
+                     Новосибирский
+                     клинический
+                     центр крови
+                  </p>
+               </div>
+            </div>
+            <div class="col-md-3 col-6">
+               <div class="contacts-h pos-center">
+                  <a class="tel" href="tel:3833537960">(383) 353 79 60</a>
+                  <a class="email" href="mailto:nbb@nso.ru">nbb@nso.ru</a>
+               </div>
+            </div>
+            <div class="col-md-3 col-6">
+               <div class="wrap-img">
+                  <img src="images/company-1-f.jpg" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="container-fluid">
+      <div class="wrap-navigation">
+         <div class="navigation">
+            <div class="column">
+               <div class="list">
+                  <div class="list-name">
+                     <a href="#"> О центре</a>
+                  </div>
+                  <ul class="list-enumeration">
+                     <li><a href="#">История</a></li>
+                     <li><a href="#">Персонал</a></li>
+                     <li><a href="#">Вакансии</a></li>
+                     <li><a href="#">Лицензия</a></li>
+                     <li><a href="#">Партнеры</a></li>
+                     <li><a href="#">График заготовки</a></li>
+                     <li><a href="#">Независимая оценка качества</a></li>
+                  </ul>
+               </div>
+               <div class="list">
+                  <div class="list-name">
+                     <a href="#">Выездная бригада</a>
+                  </div>
+               </div>
+               <div class="list">
+                  <div class="list-name">
+                     <a href="#">Трансфузиологам</a>
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <div class="list">
+                  <div class="list-name">
+                     <a href="#">Донорам</a>
+                  </div>
+                  <ul class="list-enumeration">
+                     <li><a href="#">Как стать донором</a></li>
+                     <li><a href="#">Как происходит донация </a></li>
+                     <li><a href="#">График приема доноров</a></li>
+                     <li><a href="#">Противопоказания к донорству </a></li>
+                     <li><a href="#">Безопасность донора </a></li>
+                     <li><a href="#">Почему я стал донором</a></li>
+                     <li><a href="#">Вопрос-ответ</a></li>
+                     <li><a href="#">Компоненты крови * </a></li>
+                     <li><a href="#">Группы крови </a></li>
+                     <li><a href="#">Полезные ссылки</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="column">
+               <div class="list">
+                  <div class="list-name">
+                     <a href="#">Пресс-центр</a>
+                  </div>
+                  <ul class="list-enumeration">
+                     <li><a href="#">Новости</a></li>
+                     <li><a href="#">Блог главного врача</a></li>
+                     <li><a href="#">Фото</a></li>
+                     <li><a href="#">Видео</a></li>
+                  </ul>
+               </div>
+               <div class="list">
+                  <div class="list-name">
+                     <a href="#">Донорское движение </a>
+                  </div>
+                  <ul class="list-enumeration">
+                     <li><a href="#">Для студентов</a></li>
+                     <li><a href="#">Рейтинг вузов</a></li>
+                     <li><a href="#">Для волонтеров </a></li>
+                     <li><a href="#">Корпоративное донорство</a></li>
+                     <li><a href="#">Для СМИ</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>
+
+
+<!--Popups-->
+<div class="popup-services">
+   <div class="scroll">
+      <div class="close"></div>
+      <div class="wrap">
+         <div class="title-popup">
+            В Росздравнадзоре допустили закрытие 100 клиник
+         </div>
+         <p>
+            Более 100 клиник, занимающихся пластической хирургией, обратились в Росздравнадзор с просьбой прекратить их
+            деятельность в связи с новым порядком оказания медпомощи в этой сфере, сообщил глава управления
+            Росздравнадзора
+            Александр Шаронов. Чиновник сравнил сложившуюся ситуацию с ликвидацией второго по размеру перевозчика России
+            —
+            компании </p>
+         <a href="#" class="online-recording">
+            Онлайн запись &gt;
+         </a>
+      </div>
+      <div class="wrap-img">
+         <img src="images/popup-bg-1.jpg" alt="">
+      </div>
+   </div>
+</div>
+<!--End popups-->
+
+
+<div class="shadow-overlay"></div>
+<!--Scripts-->
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="plugins/slick-slider/slick.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

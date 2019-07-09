@@ -1,0 +1,129 @@
+.more-menu {
+  margin-top: 30px;
+
+  .title-s {
+    margin-top: 40px;
+    color: $blue;
+    font-size: 70px;
+    font-weight: 600;
+  }
+
+  .menu-item {
+    width: 100%;
+    height: 303px;
+    display: block;
+    transition: all .3s ease-in-out;
+    margin-top: 40px;
+
+    &:hover {
+      filter: brightness(1.05);
+
+      .wrap-descr {
+        padding-left: 63px;
+      }
+    }
+
+    &.double {
+      height: 646px;
+
+      .wrap-descr {
+        padding-top: 464px;
+      }
+    }
+
+    &.dark-theme {
+      .name {
+        color: $black;
+      }
+
+      .arrow {
+        color: $red;
+      }
+    }
+
+    &.contraindications {
+      background: url(../images/bg-1.jpg) no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+
+    &.how-be-donor {
+      background: url(../images/bg-2.jpg) no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+
+    &.time-donor {
+      background: url(../images/bg-3.jpg) no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+
+    &.memo-donor {
+      background: url(../images/bg-4.jpg) no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+
+    &.group-blood {
+      background: url(../images/bg-5.jpg) no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+
+    &.schedule-donor {
+      background: url(../images/bg-6.jpg) no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+
+    &.how-i-do-donor {
+      background: url(../images/bg-7.jpg) no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+
+    &.question-answer {
+      background: url(../images/bg-8.jpg) no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+
+    &.going-donation {
+      background: url(../images/bg-9.jpg) no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+
+    &.components-blood {
+      background: url(../images/bg-10.jpg) no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    &.security-donor {
+      background: url(../images/bg-11.jpg) no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+
+    .wrap-descr {
+      padding-top: 145px;
+      padding-left: 60px;
+      padding-bottom: 45px;
+      transition: all .3s ease-in-out;
+    }
+
+    .name {
+      color: $white;
+      font-size: 28px;
+      line-height: 1.39;
+    }
+
+    .arrow {
+      padding-top: 45px;
+      color: $white;
+      font-size: 30px;
+      line-height: 1.5;
+    }
+  }
+}

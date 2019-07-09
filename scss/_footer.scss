@@ -1,0 +1,48 @@
+.footer {
+  .top {
+    padding: 35px 0;
+    .wrap-img {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  .contacts-h {
+
+    .tel {
+      font-size: 30px;
+      color: $sea-blue;
+      line-height: 1.13;
+    }
+
+    .email {
+      font-size: 20px;
+      color: $blue;
+      line-height: 1.7;
+
+    }
+  }
+  .name-center {
+    font-size: 32px;
+    color: $blue;
+    font-weight: 700;
+    max-width: 300px;
+
+    p {
+      text-align: left;
+      position: relative;
+      padding-left: 47px;
+
+      &:before {
+        content: '';
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        background: $red;
+      }
+    }
+  }
+
+}

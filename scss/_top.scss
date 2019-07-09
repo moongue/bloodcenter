@@ -1,0 +1,121 @@
+.top-s {
+  margin-top: 71px;
+  .container-fluid {
+    position: relative;
+  }
+  .video-control {
+    max-width: 460px;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: $sea-blue;
+    margin-left: auto;
+    margin-bottom: -57px;
+    position: relative;
+    z-index: 560;
+    .wrap-btn {
+      cursor: pointer;
+      padding: 45px;
+      border-right: 1px solid $grey;
+    }
+    p {
+      font-size: 20px;
+      color: $white;
+      text-align: center;
+      display: block;
+      width: 100%;
+    }
+  }
+  .video-wrap {
+    video {
+      max-height: 560px;
+      min-height: 420px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .vertical-t {
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+    font-size: 16px;
+    color: $blue;
+    position: absolute;
+    left: 30px;
+    margin-left: -30px;
+    img {
+      padding-top: 15px;
+      transform: rotate(180deg);
+    }
+  }
+
+  .title-top {
+    max-width: 651px;
+    font-size: 57px;
+    color: $blue;
+    font-weight: 700;
+  }
+  .choose-blood {
+    position: relative;
+    margin-top: -75px;
+    padding: 35px;
+    background: $white;
+    z-index: 560;
+    .col-6 {
+      padding: 0 7px;
+    }
+    .wrap-inf {
+      max-width: 290px;
+    }
+    .date {
+      font-size: 20px;
+      color: $pinkish-grey;
+    }
+    .name {
+      color: $black;
+      margin-top: 13px;
+      font-size: 30px;
+      line-height: 1.3;
+    }
+
+    .blood-item {
+      border: 1px solid $blue-20;
+      text-align: center;
+      .group-blood {
+        padding: 24px 0;
+        font-size: 28px;
+        color: $black;
+      }
+      .buttons {
+        display: flex;
+      }
+      .btn {
+        width: 50%;
+        &:nth-child(2) {
+          button {
+            border-right: none;
+          }
+        }
+        button {
+          width: 100%;
+          font-size: 22px;
+          background: transparent;
+          border: 1px solid $blue-20;
+          border-bottom: none;
+          border-left: none;
+          padding: 14px 0;
+          color: $black-two;
+          cursor: pointer;
+          &.red-theme {
+            background: $red-two;
+            color: $white;
+          }
+          &.green-theme {
+            background: $dark-pastel-green;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
